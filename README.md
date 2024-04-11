@@ -1,5 +1,7 @@
-Para fazer os testes instale o pacote pytest
-pip install pyteste
+<h1 align="center">CURSO: TECNICO EM ADS DISCIPLINA: DOT - DESENVOLVIMENTO ORIENTADO A TESTES</h1>
+<p>Para fazer os testes instale o pacote pytest:<br>
+  pip install pyteste</p>
 
-Testando a atividade:
-no teminal digite: pyteste nomedoarquivo.py
+<p>Testando a atividade:<br/>
+No teminal digite: pyteste nomedoarquivo.py</p>
+
