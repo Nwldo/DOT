@@ -3,5 +3,5 @@
   pip install pyteste</p>
 
 <p>Testando a atividade:<br/>
-No teminal digite: pyteste nomedoarquivo.py</p>
+No teminal digite: pytest nomedoarquivo.py</p>
 
