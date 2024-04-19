@@ -20,5 +20,5 @@ assert maior_soma_segmento([5, 2, 2, 7, 3, 15, 10, 3, 9, 6, 4, 1]) == 25 # testa
 assert maior_soma_segmento([5, 2, 2, 7, 3, 1, -6, 3, -9, 6, 4, 1]) == 10 # testando valores válidos
 assert maior_soma_segmento([0, 0, 0, 0, 0, 0, 0, 0]) == 0 # testando valores válidos 
 assert maior_soma_segmento([]) == Exception # testando valores inválidos
-assert maior_soma_segmento(["*", 2, 9]) == Exception # testando valores inválidos # testando valores inválidos
+assert maior_soma_segmento(["*", 2, 9]) == Exception # testando valores inválidos 
 print("testes ok")
