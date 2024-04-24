@@ -20,3 +20,4 @@ assert encontrar_elemento_repetido([0, 0, 0, 0, 0]) == True # testando valores v
 assert encontrar_elemento_repetido([-3, -2, 3, 1, 2]) == False # testando valores válidos
 assert encontrar_elemento_repetido([]) == Exception # testando valores inválidos <class 'Exception'>
 assert encontrar_elemento_repetido([2.1, 3, 2.1, 4, 4]) == Exception # testando valores inválidos <class 'Exception'>
+print("testes ok")

@@ -22,3 +22,4 @@ assert eliminar_ocorrencias_numeros([5, 4, 7, 3]) == [5, 4, 7, 3] # testando val
 assert eliminar_ocorrencias_numeros([-1, -2, 3, 5, -1, -2]) == [3, 5] # testando valores válidos
 assert eliminar_ocorrencias_numeros([]) == Exception # testando valores inválidos <class 'Exception'>
 assert eliminar_ocorrencias_numeros([-1, -2, 3.5, 5, -1.1, -2]) == Exception # testando valores inválidos <class 'Exception'>
+print("testes ok")

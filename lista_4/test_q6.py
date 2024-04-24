@@ -21,4 +21,5 @@ assert verificar_order([0, 0, 0]) == True # testando valores válidos
 assert verificar_order([5, -2, -2, -7, 3, 15, 10, -3]) == False # testando valores válidos
 assert verificar_order([]) == Exception # testando valores inválidos <class 'Exception'>
 assert verificar_order(["1", 2, 9]) == Exception # testando valores inválidos <class 'Exception'>
+print("testes ok")
 

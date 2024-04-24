@@ -15,12 +15,13 @@ def soma_cumulativa(lista):
         resultado.append(soma)
     return resultado
 
-print(soma_cumulativa(['1', 2, '3']))  # Saída: [1, 3, 6]
 
-#assert soma_cumulativa([1, 2, 3]) == [1, 3, 6] # Testando valoes válidos
-#assert soma_cumulativa([0, 0, 0]) == [0, 0, 0] # Testando valoes válidos
-#assert soma_cumulativa([1, 1, 1]) == [1, 2, 3] # Testando valoes válidos
-#assert soma_cumulativa([-1, -1, 1]) == [-1, -2, -1] # Testando valoes válidos
-#assert soma_cumulativa([]) == Exception # Testando classe inválida
-#assert soma_cumulativa([1.0, 2, 3.2]) == Exception # Testando classe inválida
-#assert soma_cumulativa(['1', 2, '3']) == Exception # Testando classe inválida
+
+assert soma_cumulativa([1, 2, 3]) == [1, 3, 6] # Testando valoes válidos
+assert soma_cumulativa([0, 0, 0]) == [0, 0, 0] # Testando valoes válidos
+assert soma_cumulativa([1, 1, 1]) == [1, 2, 3] # Testando valoes válidos
+assert soma_cumulativa([-1, -1, 1]) == [-1, -2, -1] # Testando valoes válidos
+assert soma_cumulativa([]) == Exception # Testando classe inválida
+assert soma_cumulativa([1.0, 2, 3.2]) == Exception # Testando classe inválida
+assert soma_cumulativa(['1', 2, '3']) == Exception # Testando classe inválida
+print("testes ok")
