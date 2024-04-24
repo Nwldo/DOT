@@ -3,7 +3,7 @@
   pip install pyteste</p>
 
 <p>Testando a atividade:</p>
-  - Acesse a pasta dos exercicios
-  - Abra o terminal e digite: "code ." para abrir o visual studio code
+  - Acesse a pasta dos exercicios<br>
+  - Abra o terminal e digite: "code ." para abrir o visual studio code<br>
   - No teminal do visual studio code digite: pytest nomedoarquivo.py
 
